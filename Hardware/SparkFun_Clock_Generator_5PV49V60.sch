@@ -4845,13 +4845,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="165.1" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="134.62" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="157.48" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="152.4" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
 <label x="160.02" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -4994,6 +4987,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="152.4" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="152.4" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="132.08" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
