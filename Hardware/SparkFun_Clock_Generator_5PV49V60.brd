@@ -3,10 +3,10 @@
 <eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -7015,7 +7015,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$33" library="Even more labels" package="CLK12" value="" x="19.9136" y="16.002" smashed="yes" rot="R90"/>
 <element name="U$34" library="Even more labels" package="CLKB13" value="" x="19.939" y="18.3642" smashed="yes" rot="R90"/>
 <element name="U$35" library="Labels" package="I_SUPER2_C-()-03" value="" x="5.7658" y="16.002" smashed="yes" rot="MR0"/>
-<element name="U$36" library="led" package="LED0" value="" x="24.5618" y="16.002" smashed="yes" rot="MR0"/>
+<element name="U$36" library="led" package="LED0" value="" x="24.3078" y="16.002" smashed="yes" rot="MR0"/>
 <element name="J7" library="SparkFun-Connectors" package="1X01_SMALL" value="" x="19.0246" y="20.2184" smashed="yes"/>
 <element name="J8" library="SparkFun-Connectors" package="1X01_SMALL" value="" x="19.05" y="17.78" smashed="yes"/>
 </elements>
@@ -7090,6 +7090,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="19.9136" y="6.4516" extent="1-16" drill="0.381"/>
 <via x="19.1262" y="18.7452" extent="1-16" drill="0.381"/>
 <via x="16.51" y="20.2946" extent="1-16" drill="0.381"/>
+<via x="16.6116" y="6.4516" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="P22"/>
@@ -7269,9 +7270,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="15.7988" y="13.5382" extent="1-16" drill="0.381"/>
 <wire x1="15.7988" y1="13.5382" x2="16.7386" y2="12.5984" width="0.2032" layer="16"/>
 <contactref element="J3" pad="8"/>
-<wire x1="24.3332" y1="3.6068" x2="25.008" y2="3.6068" width="0.2032" layer="16"/>
-<wire x1="16.7386" y1="12.5984" x2="16.7386" y2="11.2014" width="0.2032" layer="16"/>
-<wire x1="16.7386" y1="11.2014" x2="24.3332" y2="3.6068" width="0.2032" layer="16"/>
+<wire x1="24.8412" y1="3.6068" x2="25.008" y2="3.6068" width="0.2032" layer="16"/>
+<wire x1="16.7386" y1="12.5984" x2="16.7386" y2="11.7094" width="0.2032" layer="16"/>
+<wire x1="16.7386" y1="11.7094" x2="24.8412" y2="3.6068" width="0.2032" layer="16"/>
 </signal>
 <signal name="OUT1B">
 <contactref element="U1" pad="P19"/>
