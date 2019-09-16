@@ -22942,10 +22942,6 @@ Power LED</text>
 <pinref part="U1" gate="G$1" pin="CLKSEL"/>
 <wire x1="71.12" y1="66.04" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SEL_I2CB"/>
-<wire x1="73.66" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="66.04" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
-<junction x="71.12" y="66.04"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>

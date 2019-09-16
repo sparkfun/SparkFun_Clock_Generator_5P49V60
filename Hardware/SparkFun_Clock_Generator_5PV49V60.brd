@@ -7035,7 +7035,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="26.67" y="0"/>
 <vertex x="-1.27" y="0"/>
 </polygon>
-<contactref element="U1" pad="P24"/>
 <contactref element="J4" pad="1"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J2" pad="1"/>
@@ -7049,22 +7048,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C8" pad="2"/>
 <contactref element="C7" pad="2"/>
 <via x="10.3378" y="16.8402" extent="1-16" drill="0.381"/>
-<wire x1="14.6" y1="15.728" x2="14.62" y2="15.748" width="0.254" layer="1"/>
-<wire x1="14.62" y1="15.748" x2="15.5194" y2="15.748" width="0.254" layer="1"/>
-<wire x1="15.5194" y1="15.748" x2="16.129" y2="16.3576" width="0.254" layer="1"/>
 <via x="19.7358" y="12.9794" extent="1-16" drill="0.381"/>
 <via x="23.0632" y="11.2014" extent="1-16" drill="0.381"/>
-<via x="18.2372" y="16.7894" extent="1-16" drill="0.381"/>
 <via x="11.5316" y="21.3106" extent="1-16" drill="0.381"/>
 <via x="6.1214" y="14.9098" extent="1-16" drill="0.381"/>
 <via x="6.0706" y="16.383" extent="1-16" drill="0.381"/>
 <via x="6.3754" y="19.7358" extent="1-16" drill="0.381"/>
-<wire x1="17.8054" y1="16.3576" x2="18.2372" y2="16.7894" width="0.254" layer="1"/>
-<wire x1="16.129" y1="16.3576" x2="17.8054" y2="16.3576" width="0.254" layer="1"/>
 <wire x1="12.7" y1="14.478" x2="11.45" y2="15.728" width="0.254" layer="1"/>
 <wire x1="11.45" y1="15.728" x2="11.45" y2="16.378" width="0.254" layer="1"/>
 <wire x1="12.7" y1="14.478" x2="13.95" y2="15.728" width="0.254" layer="1"/>
-<wire x1="13.95" y1="15.728" x2="14.6" y2="15.728" width="0.254" layer="1"/>
 <via x="19.3802" y="14.1986" extent="1-16" drill="0.381"/>
 <wire x1="11.45" y1="16.378" x2="11.45" y2="16.998" width="0.254" layer="1"/>
 <wire x1="11.45" y1="16.998" x2="11.2776" y2="17.1704" width="0.254" layer="1"/>
@@ -7436,6 +7428,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D1" pad="A"/>
 <wire x1="25.0656" y1="16.9164" x2="25.4896" y2="17.3404" width="0.2032" layer="1"/>
 <wire x1="25.4896" y1="18.2372" x2="25.4896" y2="17.3404" width="0.2032" layer="1"/>
+</signal>
+<signal name="SEL_I2CB">
+<contactref element="U1" pad="P24"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
