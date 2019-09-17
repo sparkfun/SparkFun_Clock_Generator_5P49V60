@@ -21011,27 +21011,34 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CRYSTAL-SMD-3.2X2.5MM">
-<description>&lt;h3&gt;3.2 x 2.5mm SMD Crystal Package&lt;/h3&gt;
-&lt;p&gt;Example: &lt;a href="http://www.digikey.com/product-search/en?keywords=SER3627TR-ND"&gt;SX-32S&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-0.4" y1="1.377" x2="0.4" y2="1.377" width="0.2032" layer="21"/>
-<wire x1="-1.727" y1="-0.15" x2="-1.727" y2="0.15" width="0.2032" layer="21"/>
-<wire x1="1.727" y1="0.15" x2="1.727" y2="-0.15" width="0.2032" layer="21"/>
-<wire x1="0.4" y1="-1.377" x2="-0.4" y2="-1.377" width="0.2032" layer="21"/>
-<rectangle x1="-1.6" y1="0.35" x2="-0.6" y2="1.15" layer="51"/>
-<rectangle x1="0.6" y1="-1.15" x2="1.6" y2="-0.35" layer="51" rot="R180"/>
-<rectangle x1="-1.6" y1="-1.15" x2="-0.6" y2="-0.35" layer="51"/>
-<rectangle x1="0.6" y1="0.35" x2="1.6" y2="1.15" layer="51" rot="R180"/>
-<smd name="1" x="-1.175" y="-0.875" dx="1.2" dy="1.1" layer="1" rot="R180"/>
-<smd name="2" x="1.175" y="-0.875" dx="1.2" dy="1.1" layer="1"/>
-<smd name="3" x="1.175" y="0.875" dx="1.2" dy="1.1" layer="1"/>
-<smd name="4" x="-1.175" y="0.875" dx="1.2" dy="1.1" layer="1" rot="R180"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<package name="CRYSTAL-SMD-2X2.5MM">
+<description>&lt;h3&gt;2mm X 2.5mm SMD Crystal Package&lt;/h3&gt;
+
+&lt;p&gt;Physical Characteristics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pads size 1.2mm x 1.1mm&lt;/li&gt;
+&lt;li&gt;Pad Pitch (X-direction) 1.7mm&lt;/li&gt;
+&lt;li&gt;Pad Pitch (Y-direction) 1.4mm&lt;/li&gt;
+&lt;li&gt;Cut corner is on &lt;b&gt;PAD 2&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Polarity Marker is on &lt;b&gt;PAD 2&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Pad 2 and Pad 4 are grounded&lt;/li&gt;
+&lt;/ul&gt;</description>
+<text x="0.008" y="1.776" size="0.6096" layer="25" font="vector" ratio="12" align="bottom-center">&gt;Name</text>
+<text x="0.008" y="-1.672" size="0.6096" layer="27" font="vector" ratio="12" align="top-center">&gt;Value</text>
+<smd name="P4" x="-0.854" y="-0.71" dx="1.2" dy="1.1" layer="1"/>
+<smd name="P3" x="0.846" y="-0.71" dx="1.2" dy="1.1" layer="1"/>
+<smd name="P2" x="0.846" y="0.69" dx="1.2" dy="1.1" layer="1"/>
+<smd name="P1" x="-0.854" y="0.69" dx="1.2" dy="1.1" layer="1"/>
+<circle x="1.338" y="1.635" radius="0.161553125" width="0" layer="21"/>
+<polygon width="0.1" layer="51">
+<vertex x="-1.204" y="-1"/>
+<vertex x="1.266" y="-1.01"/>
+<vertex x="1.266" y="0.37"/>
+<vertex x="0.666" y="0.99"/>
+<vertex x="-1.224" y="0.99"/>
+<vertex x="-1.224" y="-1.01"/>
+<vertex x="-1.204" y="-1.01"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -21070,7 +21077,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;Load Capacitance: 8pF&lt;/li&gt;
 &lt;li&gt;ESR: 80 Ohms&lt;/li&gt;
 &lt;li&gt;Operating Mode: Fundamental&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;PAD 2 and PAD 4 are &lt;b&gt;GROUNDED&lt;/b&gt;&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -21078,15 +21085,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="CRYSTAL-GND" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRYSTAL-SMD-3.2X2.5MM">
+<device name="" package="CRYSTAL-SMD-2X2.5MM">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="1" pad="P1"/>
+<connect gate="G$1" pin="2" pad="P3"/>
+<connect gate="G$1" pin="GND" pad="P2 P4"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="XTAL-14664" constant="no"/>
 <attribute name="VALUE" value="16MHz" constant="no"/>
 </technology>
 </technologies>
@@ -22376,7 +22383,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="CAP-14665" constant="no"/>
 <attribute name="VALUE" value="12pF" constant="no"/>
 </technology>
 </technologies>
@@ -22883,7 +22890,6 @@ Power LED</text>
 <attribute name="VALUE" x="20.32" y="109.474" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="Y1" gate="G$1" x="55.88" y="73.66" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="64.77" y="77.216" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="51.562" y="77.216" size="1.778" layer="95" font="vector" rot="MR0" align="top-right"/>
 </instance>
 <instance part="C12" gate="G$1" x="60.96" y="66.04" smashed="yes">
