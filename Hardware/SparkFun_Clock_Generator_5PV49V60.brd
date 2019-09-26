@@ -7027,9 +7027,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-11015" x="17.2466" y="10.033" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.4846" y="10.033" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="FB1" library="SparkFun-Coils" package="0402" value="FERRITE_BEAD" x="18.6436" y="12.827" smashed="yes" rot="R180">
+<element name="FB1" library="SparkFun-Coils" package="0402" value="FERRITE_BEAD-120_OHM-0402" x="18.6436" y="12.827" smashed="yes" rot="R180">
+<attribute name="MFG_PART" value="BLM15HB121SN1D" x="18.6436" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6436" y="12.065" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="18.6436" y="13.589" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="NDUC-14206" x="18.6436" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Y1" library="SparkFun-Clocks" package="CRYSTAL-SMD-2X2.5MM" value="16MHz" x="13.7414" y="19.0246" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.7414" y="17.1196" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
