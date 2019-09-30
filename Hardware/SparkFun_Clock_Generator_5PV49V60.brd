@@ -7068,7 +7068,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$3" library="Labels" package="GND-03" value="" x="7.62" y="19.4564" smashed="yes" rot="R90"/>
 <element name="U$4" library="Labels" package="PWR-()-03" value="" x="23.9014" y="19.4818" smashed="yes"/>
 <element name="U$5" library="Every Label" package="SDA11" value="" x="12.7" y="20.2184" smashed="yes" rot="R90"/>
-<element name="U$6" library="Every Label" package="SCL10" value="" x="11.938" y="18.1356" smashed="yes" rot="R90"/>
+<element name="U$6" library="Every Label" package="SCL10" value="" x="15.24" y="20.4216" smashed="yes" rot="R90"/>
 <element name="U$7" library="Every Label" package="SD#OE12" value="" x="17.78" y="18.8976" smashed="yes" rot="R90"/>
 <element name="U$16" library="Every Label" package="CLOCK_GENERATOR0" value="" x="20.447" y="13.2842" smashed="yes" rot="MR0"/>
 <element name="U$17" library="Every Label" package="5PV49V601" value="" x="18.7452" y="11.5316" smashed="yes" rot="MR0"/>
