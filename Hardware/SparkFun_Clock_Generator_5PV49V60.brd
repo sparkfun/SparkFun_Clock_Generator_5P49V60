@@ -7147,9 +7147,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="11.0744" y="21.0058" extent="1-16" drill="0.254"/>
 <via x="17.78" y="17.8054" extent="1-16" drill="0.254"/>
 <via x="7.0104" y="13.3096" extent="1-16" drill="0.254"/>
-<wire x1="12.8216" y1="15.9716" x2="12.72" y2="16.0732" width="0.254" layer="1"/>
-<wire x1="12.72" y1="16.378" x2="12.72" y2="16.0732" width="0.254" layer="1"/>
-<wire x1="12.8216" y1="15.9716" x2="12.8216" y2="15.4232" width="0.254" layer="1"/>
 <via x="3.81" y="11.176" extent="1-16" drill="0.254"/>
 <polygon width="0.254" layer="16" isolate="0.3048" rank="2">
 <vertex x="0" y="25.4"/>
@@ -7201,6 +7198,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="26.67" y="11.43" extent="1-16" drill="0.254"/>
 <via x="7.62" y="17.78" extent="1-16" drill="0.254"/>
 <via x="7.62" y="20.32" extent="1-16" drill="0.254"/>
+<wire x1="12.72" y1="16.0328" x2="12.72" y2="16.378" width="0.254" layer="1"/>
+<wire x1="13.97" y1="14.478" x2="13.97" y2="14.7828" width="0.254" layer="1"/>
+<wire x1="13.97" y1="14.7828" x2="12.72" y2="16.0328" width="0.254" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="P22"/>
@@ -7264,7 +7264,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="3.048" y="12.446" extent="1-16" drill="0.254"/>
 <wire x1="3.048" y1="12.446" x2="3.294" y2="12.2" width="0.254" layer="16"/>
 <wire x1="3.294" y1="12.2" x2="5.08" y2="12.2" width="0.254" layer="16"/>
-<wire x1="11.4808" y1="14.224" x2="11.4554" y2="14.1986" width="0.3556" layer="16"/>
 <wire x1="13.72" y1="11.6372" x2="13.6652" y2="11.5824" width="0.2032" layer="1"/>
 <wire x1="13.72" y1="12.628" x2="13.72" y2="11.6372" width="0.2032" layer="1"/>
 <wire x1="13.6652" y1="10.7908" x2="14.3256" y2="10.7908" width="0.3556" layer="16"/>
@@ -7563,12 +7562,31 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <errors>
 <approved hash="19,1,be87b3d29a3c9769"/>
 <approved hash="19,1,12881fdcc032cd66"/>
-<approved hash="19,1,25519cd56e23981a"/>
-<approved hash="19,1,375a9ade74288a11"/>
-<approved hash="19,1,ba7f70b5ce01b782"/>
-<approved hash="19,1,807a06b0a4068985"/>
-<approved hash="19,1,eb97a3481cfbe4f5"/>
-<approved hash="19,1,5556a35ed322ec85"/>
+<approved hash="19,1,cab3cb793f713ebb"/>
+<approved hash="19,1,ceb3cf7a4f724ebb"/>
+<approved hash="19,1,0e5d509f25160441"/>
+<approved hash="19,1,cab3cb793f713ebb"/>
+<approved hash="19,1,ceb3cf7a4f724ebb"/>
+<approved hash="19,1,92efaccd0086befe"/>
+<approved hash="19,1,0a5d5497631e4241"/>
+<approved hash="19,1,2e2024e82c01595c"/>
+<approved hash="19,1,061e0cd3623a1762"/>
+<approved hash="19,1,8e8d8f47174f1685"/>
+<approved hash="19,1,cab3cb793f713ebb"/>
+<approved hash="19,1,cab3cb793f713ebb"/>
+<approved hash="19,1,ceb3cf7a4f724ebb"/>
+<approved hash="19,1,bdc7265749211557"/>
+<approved hash="19,1,754f4917cd80fb06"/>
+<approved hash="19,1,c2355b73cc0be1ed"/>
+<approved hash="19,1,92efaccd0086befe"/>
+<approved hash="19,1,bdc7265749211557"/>
+<approved hash="19,1,c5d4c65956a25fd7"/>
+<approved hash="19,1,ef80bf367df5deb0"/>
+<approved hash="19,1,e6c2228fb1ca8674"/>
+<approved hash="19,1,82df836f006701d7"/>
+<approved hash="19,1,bdf1cda361c63e37"/>
+<approved hash="19,1,0e5d509f25160441"/>
+<approved hash="19,1,2e2024e82c01595c"/>
 </errors>
 </board>
 </drawing>
