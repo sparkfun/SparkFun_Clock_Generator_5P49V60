@@ -19434,130 +19434,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </deviceset>
 </devicesets>
 </library>
-<library name="clock">
-<packages>
-<package name="VFQFPN-24">
-<smd name="P1" x="-1.9" y="1.25" dx="0.55" dy="0.25" layer="1"/>
-<smd name="P2" x="-1.9" y="0.75" dx="0.55" dy="0.25" layer="1"/>
-<smd name="P3" x="-1.9" y="0.25" dx="0.55" dy="0.25" layer="1"/>
-<smd name="P4" x="-1.9" y="-0.25" dx="0.55" dy="0.25" layer="1"/>
-<smd name="P5" x="-1.9" y="-0.75" dx="0.55" dy="0.25" layer="1"/>
-<smd name="P6" x="-1.9" y="-1.25" dx="0.55" dy="0.25" layer="1"/>
-<smd name="P7" x="-1.25" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P8" x="-0.75" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P9" x="-0.25" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P10" x="0.25" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P11" x="0.75" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P12" x="1.25" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P13" x="1.85" y="-1.25" dx="0.55" dy="0.25" layer="1" rot="R180"/>
-<smd name="P14" x="1.85" y="-0.75" dx="0.55" dy="0.25" layer="1" rot="R180"/>
-<smd name="P15" x="1.85" y="-0.25" dx="0.55" dy="0.25" layer="1" rot="R180"/>
-<smd name="P16" x="1.85" y="0.25" dx="0.55" dy="0.25" layer="1" rot="R180"/>
-<smd name="P17" x="1.85" y="0.75" dx="0.55" dy="0.25" layer="1" rot="R180"/>
-<smd name="P18" x="1.85" y="1.25" dx="0.55" dy="0.25" layer="1" rot="R180"/>
-<smd name="P19" x="1.25" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
-<smd name="P20" x="0.75" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
-<smd name="P21" x="0.25" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
-<smd name="P22" x="-0.25" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
-<smd name="P23" x="-0.75" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
-<smd name="P24" x="-1.25" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
-<smd name="GND" x="0" y="0" dx="2.6" dy="2.6" layer="1" cream="no"/>
-<rectangle x1="-1.15" y1="0.15" x2="-0.15" y2="1.15" layer="31"/>
-<rectangle x1="0.15" y1="0.15" x2="1.15" y2="1.15" layer="31"/>
-<rectangle x1="0.15" y1="-1.15" x2="1.15" y2="-0.15" layer="31"/>
-<rectangle x1="-1.15" y1="-1.15" x2="-0.15" y2="-0.15" layer="31"/>
-<text x="-1.5" y="2.5" size="0.5" layer="25">&gt;NAME</text>
-<text x="-1.5" y="-3" size="0.5" layer="27">&gt;VALUE</text>
-<circle x="-2.54" y="2.54" radius="0.283978125" width="0" layer="21"/>
-<wire x1="-2.1082" y1="1.524" x2="-2.1082" y2="2.1082" width="0.127" layer="21"/>
-<wire x1="-2.1082" y1="2.1082" x2="-1.524" y2="2.1082" width="0.127" layer="21"/>
-<wire x1="1.524" y1="2.1082" x2="2.0574" y2="2.1082" width="0.127" layer="21"/>
-<wire x1="2.0574" y1="2.1082" x2="2.0574" y2="1.524" width="0.127" layer="21"/>
-<wire x1="-2.1082" y1="-1.524" x2="-2.1082" y2="-2.0574" width="0.127" layer="21"/>
-<wire x1="-2.1082" y1="-2.0574" x2="-1.524" y2="-2.0574" width="0.127" layer="21"/>
-<wire x1="2.0574" y1="-1.524" x2="2.0574" y2="-2.0574" width="0.127" layer="21"/>
-<wire x1="2.0574" y1="-2.0574" x2="1.524" y2="-2.0574" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="5P49V60">
-<wire x1="-12.7" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<pin name="OUT1" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="OUT1B" x="17.78" y="10.16" length="middle" rot="R180"/>
-<pin name="OUT2" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="OUT2B" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="OUT3" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="OUT3B" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="OUT4" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="OUT4B" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="SEL1/SDA" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="SEL0/SCL" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="CLKIN" x="17.78" y="17.78" length="middle" rot="R180"/>
-<pin name="SD/OE" x="17.78" y="-17.78" length="middle" rot="R180"/>
-<pin name="VDDD" x="-17.78" y="17.78" length="middle" direction="pwr"/>
-<pin name="VDDA" x="-17.78" y="15.24" length="middle" direction="pwr"/>
-<pin name="GND_PAD" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
-<pin name="CLKSEL" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
-<pin name="SEL_I2CB" x="17.78" y="-12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD0" x="-17.78" y="12.7" length="middle" direction="pwr"/>
-<pin name="VDD1" x="-17.78" y="10.16" length="middle" direction="pwr"/>
-<pin name="VDD2" x="-17.78" y="7.62" length="middle" direction="pwr"/>
-<pin name="VDD3" x="-17.78" y="5.08" length="middle" direction="pwr"/>
-<pin name="XOUT" x="-17.78" y="-7.62" length="middle"/>
-<pin name="XIN" x="-17.78" y="-2.54" length="middle"/>
-<pin name="VDD4" x="-17.78" y="2.54" length="middle" direction="pwr"/>
-<pin name="CLKINB" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
-<text x="-12.7" y="22.86" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IDT_5P49V60_CLOCK_GENERATOR" prefix="U">
-<gates>
-<gate name="G$1" symbol="5P49V60" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="VFQFPN-24">
-<connects>
-<connect gate="G$1" pin="CLKIN" pad="P1"/>
-<connect gate="G$1" pin="CLKINB" pad="P2"/>
-<connect gate="G$1" pin="CLKSEL" pad="P6"/>
-<connect gate="G$1" pin="GND_PAD" pad="GND"/>
-<connect gate="G$1" pin="OUT1" pad="P20"/>
-<connect gate="G$1" pin="OUT1B" pad="P19"/>
-<connect gate="G$1" pin="OUT2" pad="P17"/>
-<connect gate="G$1" pin="OUT2B" pad="P16"/>
-<connect gate="G$1" pin="OUT3" pad="P14"/>
-<connect gate="G$1" pin="OUT3B" pad="P13"/>
-<connect gate="G$1" pin="OUT4" pad="P11"/>
-<connect gate="G$1" pin="OUT4B" pad="P12"/>
-<connect gate="G$1" pin="SD/OE" pad="P7"/>
-<connect gate="G$1" pin="SEL0/SCL" pad="P9"/>
-<connect gate="G$1" pin="SEL1/SDA" pad="P8"/>
-<connect gate="G$1" pin="SEL_I2CB" pad="P24"/>
-<connect gate="G$1" pin="VDD0" pad="P23"/>
-<connect gate="G$1" pin="VDD1" pad="P21"/>
-<connect gate="G$1" pin="VDD2" pad="P18"/>
-<connect gate="G$1" pin="VDD3" pad="P15"/>
-<connect gate="G$1" pin="VDD4" pad="P10"/>
-<connect gate="G$1" pin="VDDA" pad="P5"/>
-<connect gate="G$1" pin="VDDD" pad="P22"/>
-<connect gate="G$1" pin="XIN" pad="P4"/>
-<connect gate="G$1" pin="XOUT" pad="P3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-14612" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Clocks">
 <description>&lt;h3&gt;SparkFun Clocks, Oscillators and Resonators&lt;/h3&gt;
 This library contains the real-time clocks, oscillators, resonators, and crystals we use. 
@@ -21420,6 +21296,179 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Special-Function">
+<description>&lt;h3&gt;SparkFun Special Function ICs&lt;/h3&gt;
+This library contains ICs that do not really fit into the other, more generic categories.  Basically, anything that serves some function but has a bunch of brains or special bias circuitry that prevents it from being used as a general part qualifies for this category.
+&lt;p&gt;Contents:
+&lt;ul&gt;&lt;li&gt;555 timers&lt;/li&gt;
+&lt;li&gt;LED drivers&lt;/li&gt;
+&lt;li&gt;H-Bridge drivers&lt;/li&gt;
+&lt;li&gt;Motor drivers&lt;/li&gt;
+&lt;li&gt;Waveform generators&lt;/li&gt;
+&lt;li&gt;Crypto&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="VFQFPN-24">
+<description>&lt;h3&gt;24-VFQFPN&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 24&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Pin size: .55mm x .25mm&lt;/li&gt;
+&lt;li&gt;Total Size: 4.3mm x 4.3mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P1" x="-1.9" y="1.25" dx="0.55" dy="0.25" layer="1"/>
+<smd name="P2" x="-1.9" y="0.75" dx="0.55" dy="0.25" layer="1"/>
+<smd name="P3" x="-1.9" y="0.25" dx="0.55" dy="0.25" layer="1"/>
+<smd name="P4" x="-1.9" y="-0.25" dx="0.55" dy="0.25" layer="1"/>
+<smd name="P5" x="-1.9" y="-0.75" dx="0.55" dy="0.25" layer="1"/>
+<smd name="P6" x="-1.9" y="-1.25" dx="0.55" dy="0.25" layer="1"/>
+<smd name="P7" x="-1.25" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P8" x="-0.75" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P9" x="-0.25" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P10" x="0.25" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P11" x="0.75" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P12" x="1.25" y="-1.85" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P13" x="1.85" y="-1.25" dx="0.55" dy="0.25" layer="1" rot="R180"/>
+<smd name="P14" x="1.85" y="-0.75" dx="0.55" dy="0.25" layer="1" rot="R180"/>
+<smd name="P15" x="1.85" y="-0.25" dx="0.55" dy="0.25" layer="1" rot="R180"/>
+<smd name="P16" x="1.85" y="0.25" dx="0.55" dy="0.25" layer="1" rot="R180"/>
+<smd name="P17" x="1.85" y="0.75" dx="0.55" dy="0.25" layer="1" rot="R180"/>
+<smd name="P18" x="1.85" y="1.25" dx="0.55" dy="0.25" layer="1" rot="R180"/>
+<smd name="P19" x="1.25" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="P20" x="0.75" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="P21" x="0.25" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="P22" x="-0.25" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="P23" x="-0.75" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="P24" x="-1.25" y="1.9" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="GND" x="0" y="0" dx="2.6" dy="2.6" layer="1" cream="no"/>
+<rectangle x1="-1.15" y1="0.15" x2="-0.15" y2="1.15" layer="31"/>
+<rectangle x1="0.15" y1="0.15" x2="1.15" y2="1.15" layer="31"/>
+<rectangle x1="0.15" y1="-1.15" x2="1.15" y2="-0.15" layer="31"/>
+<rectangle x1="-1.15" y1="-1.15" x2="-0.15" y2="-0.15" layer="31"/>
+<text x="-1.5" y="2.5" size="0.5" layer="25">&gt;NAME</text>
+<text x="-1.5" y="-3" size="0.5" layer="27">&gt;VALUE</text>
+<circle x="-2.54" y="2.54" radius="0.283978125" width="0" layer="21"/>
+<wire x1="-2.1082" y1="1.524" x2="-2.1082" y2="2.1082" width="0.127" layer="21"/>
+<wire x1="-2.1082" y1="2.1082" x2="-1.524" y2="2.1082" width="0.127" layer="21"/>
+<wire x1="1.524" y1="2.1082" x2="2.0574" y2="2.1082" width="0.127" layer="21"/>
+<wire x1="2.0574" y1="2.1082" x2="2.0574" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-2.1082" y1="-1.524" x2="-2.1082" y2="-2.0574" width="0.127" layer="21"/>
+<wire x1="-2.1082" y1="-2.0574" x2="-1.524" y2="-2.0574" width="0.127" layer="21"/>
+<wire x1="2.0574" y1="-1.524" x2="2.0574" y2="-2.0574" width="0.127" layer="21"/>
+<wire x1="2.0574" y1="-2.0574" x2="1.524" y2="-2.0574" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="5P49V60">
+<wire x1="-12.7" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<pin name="OUT1" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="OUT1B" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="OUT2" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="OUT2B" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="OUT3" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="OUT3B" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="OUT4" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUT4B" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="SEL1/SDA" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="SEL0/SCL" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="CLKIN" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="SD/OE" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="VDDD" x="-17.78" y="17.78" length="middle" direction="pwr"/>
+<pin name="VDDA" x="-17.78" y="15.24" length="middle" direction="pwr"/>
+<pin name="GND_PAD" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
+<pin name="CLKSEL" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
+<pin name="SEL_I2CB" x="17.78" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD0" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+<pin name="VDD1" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="VDD2" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="VDD3" x="-17.78" y="5.08" length="middle" direction="pwr"/>
+<pin name="XOUT" x="-17.78" y="-7.62" length="middle"/>
+<pin name="XIN" x="-17.78" y="-2.54" length="middle"/>
+<pin name="VDD4" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="CLKINB" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<text x="-12.7" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IDT_5P49V60_CLOCK_GENERATOR" prefix="U">
+<description>&lt;h3&gt;Clock Generator 5P49V60&lt;/h3&gt;
+&lt;p&gt;
+The 5P49V60 is a programmable clock generator intended for
+automotive applications. Configurations may be stored in on-chip
+One-Time Programmable (OTP) memory or changed using I2C
+interface. This is IDT’s sixth generation of programmable clock
+technology (VersaClock 6E). &lt;/p&gt;
+&lt;p&gt;
+The frequencies are generated from a single reference clock. The
+reference clock can come from one of the two redundant clock
+inputs. A glitchless manual switchover function allows one of the
+redundant clocks to be selected during normal operation.
+&lt;/p&gt;
+&lt;p&gt;
+Two select pins allow up to four different configurations to be
+programmed and accessible using processor GPIOs or
+bootstrapping. The different selections may be used for different
+operating modes (full function, partial function, partial
+power-down), regional standards (US, Japan, Europe) or system
+production margin testing. The device may be configured to use
+one of two I2C addresses to allow multiple devices to be used in a
+system.
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="5P49V60" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VFQFPN-24">
+<connects>
+<connect gate="G$1" pin="CLKIN" pad="P1"/>
+<connect gate="G$1" pin="CLKINB" pad="P2"/>
+<connect gate="G$1" pin="CLKSEL" pad="P6"/>
+<connect gate="G$1" pin="GND_PAD" pad="GND"/>
+<connect gate="G$1" pin="OUT1" pad="P20"/>
+<connect gate="G$1" pin="OUT1B" pad="P19"/>
+<connect gate="G$1" pin="OUT2" pad="P17"/>
+<connect gate="G$1" pin="OUT2B" pad="P16"/>
+<connect gate="G$1" pin="OUT3" pad="P14"/>
+<connect gate="G$1" pin="OUT3B" pad="P13"/>
+<connect gate="G$1" pin="OUT4" pad="P11"/>
+<connect gate="G$1" pin="OUT4B" pad="P12"/>
+<connect gate="G$1" pin="SD/OE" pad="P7"/>
+<connect gate="G$1" pin="SEL0/SCL" pad="P9"/>
+<connect gate="G$1" pin="SEL1/SDA" pad="P8"/>
+<connect gate="G$1" pin="SEL_I2CB" pad="P24"/>
+<connect gate="G$1" pin="VDD0" pad="P23"/>
+<connect gate="G$1" pin="VDD1" pad="P21"/>
+<connect gate="G$1" pin="VDD2" pad="P18"/>
+<connect gate="G$1" pin="VDD3" pad="P15"/>
+<connect gate="G$1" pin="VDD4" pad="P10"/>
+<connect gate="G$1" pin="VDDA" pad="P5"/>
+<connect gate="G$1" pin="VDDD" pad="P22"/>
+<connect gate="G$1" pin="XIN" pad="P4"/>
+<connect gate="G$1" pin="XOUT" pad="P3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14612" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21436,7 +21485,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
-<part name="U1" library="clock" deviceset="IDT_5P49V60_CLOCK_GENERATOR" device=""/>
+<part name="U1" library="SparkFun-IC-Special-Function" deviceset="IDT_5P49V60_CLOCK_GENERATOR" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
