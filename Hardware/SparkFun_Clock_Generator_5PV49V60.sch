@@ -21494,7 +21494,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="166.37" y="11.684" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v02</text>
+<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <wire x1="68.58" y1="99.06" x2="60.96" y2="99.06" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="60.96" y1="99.06" x2="60.96" y2="114.3" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="60.96" y1="114.3" x2="96.52" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
