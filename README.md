@@ -1,11 +1,15 @@
 SparkFun Clock Generator 5P49V60
 ========================================
 
-![SparkFun Clock Generator 5P49V60](URL for picture of part)
+![SparkFun Clock Generator 5P49V60](https://cdn.sparkfun.com/assets/parts/1/4/3/2/6/15734-SparkFun_Clock_Generator_Breakout_-_5P49V60__Qwiic_-01.jpg)
 
 [*SparkFun Clock Generator 5P49V60 (BOB-15734)*](https://www.sparkfun.com/products/15734)
 
-The Clock Generator...... something something.
+The SparkFun Clock Generator 5P49V60 breakout board offers a wide range of customizable frequencies in a wide range 
+of different signal types using a single reference clock. Four (single output) clock outputs can generate frequencies 
+from 1MHz-200MHz and eight (differential output) clock outputs can generate frequencies from 1MHz-350MHz. The frequency's 
+many properties can be manipulated in code via I2C using the SparkFun Arduino Library. The SparkFun Clock Generator also 
+has four banks of programmable memory for the time when it's ready to sit on its' own within the project without a microcontroller.
 
 Repository Contents
 -------------------
@@ -33,4 +37,3 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_<COLLABORATION CREDIT>_
