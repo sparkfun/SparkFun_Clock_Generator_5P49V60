@@ -21,7 +21,7 @@ Repository Contents
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_Clock_Generator_5P49V60_Arduino_Library)** - Arduino Library for the SparkFun Clock Generator 5P49V60
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-clock-generator-5p49v60-hookup-guide)** - Hookup Guide for the SparkFun Clock Generator 5P49V60
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-clock-generator-5p49v60-qwiic-hookup-guide)** - Hookup Guide for the SparkFun Clock Generator 5P49V60
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 
 License Information
